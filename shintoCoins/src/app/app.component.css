@@ -1,0 +1,23 @@
+button{
+  border-radius: 5px;
+  width:120px;
+  height:40px;
+  background-color: grey;
+  font-size:15px;
+}
+ul,li{
+  list-style: none;
+  margin-top:30px;
+  display: inline-block;
+}
+ul{
+  margin-left:10px;
+  padding-left: 0px;
+}
+#shinto{
+  width:60px;
+  height:60px;
+  background-color: yellow;
+  border-radius: 30px;
+  display: inline-block;
+}

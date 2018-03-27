@@ -1,0 +1,18 @@
+p{
+  font-size: 20px;
+}
+button{
+  font-size: 12px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  width:50px;
+}
+/* table,tr,td{
+  border:1px solid black;
+} */
+table{
+  display: inline-block;
+}
+#tablehead{
+  background: lightgrey;
+}

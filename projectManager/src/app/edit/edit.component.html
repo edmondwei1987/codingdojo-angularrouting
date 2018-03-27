@@ -1,0 +1,7 @@
+<h1>Edit Product</h1>
+<form (submit)="update()">
+  Name: <input type="text" name="product.name" [(ngModel)]="product.name">
+  Price: <input type="text" name="product.price" [(ngModel)]="product.price">
+  <button type="submit">update</button>
+</form>
+<button (click)="delete()">delete</button>

@@ -1,0 +1,13 @@
+p{
+  font-size: 20px;
+}
+button{
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: lightgrey;
+  width:100px;
+}
+input{
+  width:150px;
+  height: 20px;
+}

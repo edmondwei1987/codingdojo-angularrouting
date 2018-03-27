@@ -1,0 +1,4 @@
+<h1>Products List</h1>
+<p *ngFor="let product of products">
+    {{product.name}}  ${{product.price}} <button [routerLink]="['/edit',product._id]">Edit</button><button (click)="delete(product._id)">Delete</button> 
+</p>

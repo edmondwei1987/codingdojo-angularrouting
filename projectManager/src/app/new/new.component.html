@@ -1,0 +1,8 @@
+<h1>create a product</h1>
+<form (submit)="newProduct()">
+  Title:<input type="text" name="product.name" [(ngModel)]="product.name">
+  Price:<input type="text" name="product.price" [(ngModel)]="product.price">
+  <button [routerLink]="['/home']">Cancel</button>
+  <button type="submit">submit</button>
+</form>
+
